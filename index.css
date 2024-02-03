@@ -1,0 +1,340 @@
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+.bac_img {
+  background-image: url(./img/mounth.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.nt {
+  padding: 20px;
+  color: #fff;
+  font-family: "Playfair Display";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 190%; /* 68.4px */
+}
+.big {
+  justify-content: space-around;
+  display: flex;
+}
+.big button {
+  margin-top: 20px;
+  gap: 20px;
+  color: #fff;
+  font-family: Larsseit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  padding: 20px 58px 20px 58px;
+  background-color: rgb(0, 149, 255);
+  border-radius: 100px;
+  border: none;
+}
+.big button:hover {
+  transition: 0.7s;
+  background-color: rgb(0, 50, 50);
+  cursor: pointer;
+  border-radius: 20px;
+}
+.menu {
+  gap: 45px;
+  justify-content: space-around;
+  display: flex;
+}
+.img {
+  width: 20px;
+  margin-top: 52px;
+  height: 20px;
+  align-items: center;
+}
+.night {
+  margin-top: -400px;
+  padding-bottom: 20px;
+  margin-left: 350px;
+  color: #fff;
+  font-family: "Noe Display";
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -2.4px;
+}
+.got {
+  margin-left: 380px;
+  color: #fff;
+  font-family: Larsseit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.nes {
+  color: #fff;
+  text-align: center;
+  font-family: Larsseit;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 25.5px */
+}
+.crol {
+  display: flex;
+  justify-content: center;
+  margin-top: -10px;
+  gap: 900px;
+}
+
+body {
+  background-color: #011627;
+  background-image: url(./img/BG\ LIGHTS.img.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.pic {
+  color: #fff;
+  text-align: center;
+  font-family: "Noe Display";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; /* 79.2px */
+  letter-spacing: -1.44px;
+}
+.sed {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 33px;
+}
+.said {
+  width: 25px;
+  height: 30px;
+}
+.our {
+  color: #fff;
+  font-family: Larsseit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.32px;
+}
+.liniya {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 1200px;
+  height: 2px;
+  flex-shrink: 0;
+  border-radius: 13px;
+  opacity: 0.3;
+  background: #41ead4;
+}
+.Chill {
+  margin-top: 40px;
+  justify-content: center;
+  display: flex;
+  gap: 150px;
+}
+.Chill li a {
+  color: #fff;
+  text-align: center;
+  font-family: Larsseit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; /* 17.6px */
+  letter-spacing: -0.32px;
+}
+.Chill li a:hover {
+  color: aquamarine;
+  transition: 0.8s;
+}
+.liniya:hover {
+  width: 282px;
+  height: 4px;
+  flex-shrink: 0;
+  border-radius: 13px;
+  background: #41ead4;
+  transition: 0.5s;
+}
+.img {
+  width: 437px;
+  height: 560px;
+}
+.adven {
+  padding-bottom: 10px;
+  color: #fff;
+  font-family: "Noe Display";
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; /* 71.5px */
+  letter-spacing: -1.3px;
+}
+.orgn {
+  color: #fff;
+  font-family: Larsseit;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 25.5px */
+  letter-spacing: -0.34px;
+}
+.big_box {
+  justify-content: center;
+  display: flex;
+  gap: 200px;
+}
+.see {
+  border: none;
+  margin-top: 25px;
+  border-radius: 183px;
+  background: #00c9e0;
+  /* Button Shadow */
+  box-shadow: 5px 15px 40px 0px rgba(0, 201, 224, 0.2);
+  padding: 19px 47px 19px 47px;
+}
+.stef {
+  margin-top: 100px;
+}
+.see:hover {
+  transition: 0.8s;
+  cursor: pointer;
+  box-shadow: 5px 15px 40px 0px #00c9e0;
+  background-color: transparent;
+  color: white;
+}
+.about {
+  margin-left: 100px;
+  padding-bottom: 10px;
+  color: #fff;
+  font-family: "Noe Display";
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; /* 71.5px */
+  letter-spacing: -1.3px;
+}
+.us {
+  color: #fff;
+  font-family: Larsseit;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 25.5px */
+  letter-spacing: -0.34px;
+  margin-left: 100px;
+}
+.kolb img {
+  margin-left: 740px;
+  width: 264px;
+  height: 176px;
+  display: flex;
+  justify-content: center;
+}
+.kolab img {
+  margin-left: 840px;
+  width: 264px;
+  height: 176px;
+  display: flex;
+  justify-content: center;
+}
+.about_box {
+  margin-top: 100px;
+}
+.read {
+  margin-left: 100px;
+  border: none;
+  margin-top: 25px;
+  border-radius: 183px;
+  background: #00c9e0;
+  /* Button Shadow */
+  box-shadow: 5px 15px 40px 0px rgba(0, 201, 224, 0.2);
+  padding: 19px 47px 19px 47px;
+}
+.read:hover {
+  transition: 0.8s;
+  cursor: pointer;
+  box-shadow: 5px 15px 40px 0px #00c9e0;
+  background-color: transparent;
+  color: white;
+}
+.big_img {
+  margin-left: 600px;
+  width: 195px;
+  height: 195px;
+}
+.three {
+  margin-top: -400px;
+  margin-left: 200px;
+}
+.four {
+  margin-left: 200px;
+}
+
+.one {
+  margin-top: -400px;
+}
+.fael {
+  width: 410px;
+  height: 290px;
+  background-color: #41ead4;
+}
+.bac_mon {
+  width: 1000px;
+  height: 900px;
+  background-color: #000e19;
+}
+.pop {
+  padding-bottom: 10px;
+  color: #fff;
+  font-family: "Noe Display";
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; /* 71.5px */
+  letter-spacing: -1.3px;
+}
+.se {
+  margin-left: 380px;
+  color: #fff;
+  font-family: Larsseit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.el {
+  padding-top: 100px;
+  color: #fff;
+  font-family: Larsseit;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
